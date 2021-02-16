@@ -1,0 +1,90 @@
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+}
+
+.grid div {
+  height: 38px;
+  width: 38px;
+  border: solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flag {
+  font-size: 20pt;
+}
+
+.valid {
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+[data="1"] div {
+  color: blue;
+  border: none;
+}
+[data="2"] div {
+  color: teal;
+  border: none;
+}
+[data="3"] div {
+  color: darkred;
+  border: none;
+}
+[data="4"] div {
+  color: purple;
+  border: none;
+}
+[data="5"] div {
+  color: green;
+  border: none;
+}
+[data="6"] div {
+  color: darkorange;
+  border: none;
+}
+[data="7"] div {
+  color: brown;
+  border: none;
+}
+[data="8"] div {
+  color: yellowgreen;
+  border: none;
+}
+.bomb {
+  font-size: 20pt;
+}
+
+.resetBtnWrapper {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.gridWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  place-content: center;
+}
+
+.message,
+.points,
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checked {
+  background-color: lightgrey;
+}
+
+.blown {
+  background-color: red;
+}
